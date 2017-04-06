@@ -1,4 +1,4 @@
-    	/*================
+   /*================
 
      General Styles
 
@@ -302,13 +302,6 @@
     		background: url("../assets/images/ewg_academy_header.jpg") no-repeat center center;
     		background-size: cover;
     		min-height: 70vh;
-    		/*background: -webkit-linear-gradient(right, #F2994A, #F2C94C);
-background: -o-linear-gradient(from bottom, #F2994A, #F2C94C);
-background: linear-gradient(from bottom, #F2C94C);*/
-    		/* Chrome 10-25, Safari 5.1-6 */
-    		/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    		/*background: #F2994A;*/
-    		/* fallback for old browsers */
     	}
     	
     	.intro-message {
@@ -1008,3 +1001,40 @@ background: linear-gradient(from bottom, #F2C94C);*/
     	.slick-arrow.slick-hidden {
     		display: none;
     	}
+    	/*EQUAL HEIGHT
+    	
+    	@media only screen and (min-width: 767px) {
+    		.row.equal-height {
+    			display: flex;
+    			flex-wrap: wrap;
+    		}
+    		.row.equal-height>[class*='col-'] {
+    			display: flex;
+    			flex-direction: column;
+    		}
+    		.row.equal-height.row:after,
+    		.row.equal-height.row:before {
+    			display: flex;
+    		}
+    		.row.equal-height>[class*='col-']>.thumbnail,
+    		.row.equal-height>[class*='col-']>.thumbnail>.caption {
+    			display: flex;
+    			flex: 1 0 auto;
+    			flex-direction: column;
+    		}
+    		.row.equal-height>[class*='col-']>.thumbnail>.caption>.flex-text {
+    			flex-grow: 1;
+    		}
+    		.row.equal-height>[class*='col-']>.thumbnail>img {
+    			width: 100%;
+    			height: 200px;
+    			/* force image's height */
+    	/* force image fit inside it's "box" 
+    			-webkit-object-fit: cover;
+    			-moz-object-fit: cover;
+    			-ms-object-fit: cover;
+    			-o-object-fit: cover;
+    			object-fit: cover;*/
+    }
+   }
+   */

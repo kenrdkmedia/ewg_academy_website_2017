@@ -271,7 +271,7 @@ header h1 {
 	background: white;
 	border-radius: 0.25em;
 	padding: 1em;
-	box-shadow: 0 3px 0 #d7e4ed;
+	box-shadow: 0 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 .cd-timeline-content:after {

@@ -169,11 +169,11 @@ header h1 {
 
 .cd-timeline-img img {
 	display: block;
-	width: 24px;
-	height: 24px;
+	width: 2.2em;
+	height: 2.2em;
 	position: relative;
-	left: 50%;
-	top: 50%;
+	left: 42%;
+	top: 42%;
 	margin-left: -12px;
 	margin-top: -12px;
 }

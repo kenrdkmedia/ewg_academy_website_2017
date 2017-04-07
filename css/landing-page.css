@@ -1,99 +1,4 @@
 /* General Styles*/
-
-html {
-	
-    		width: 100%;
-    		height: 100%;
-
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-p {
-	font-size: 1.5em;
-	line-height: 1.5;
-	font-weight: 300;
-	color: #444;
-	letter-spacing: 0.1rem;
-}
-
-h3 {
-	font-weight: 300;
-	color: #444;
-}
-
-cite,
-content {
-	color: #fff;
-}
-
-.btn-primary,
-.btn-primary:active {
-	background-color: #fff;
-	border-color: #555;
-	color: #555;
-	margin: 1.3em 0;
-	padding: 0.5em;
-	font-size: 1.3em;
-	font-weight: 300;
-}
-
-.btn-outline,
-.btn-outline:active,
-.btn-outline:focus {
-	position: relative;
-	top: 0.5rem;
-	background-color: #F89231;
-	color: #fff;
-	border: none;
-	padding: 0.5em;
-	font-size: 1.3em;
-	font-weight: 300;
-}
-
-.btn-outline:hover {
-	background-color: #BE6E27;
-	border: none;
-}
-
-.btn-form {
-	background-color: #fff;
-	border-color: #444;
-	color: #444;
-	margin: 1.3em 0;
-}
-
-.btn-form:hover {
-	background-color: #555;
-	border-color: #555;
-}
-
-.btn-send,
-.btn-success,
-.btn.disabled,
-.btn.disabled:hover {
-	color: #555;
-	background-color: #e4e4e4;
-	border-color: #e4e4e4;
-	padding: 0.8em;
-	font-size: 1.2em;
-}
-
-.btn-success:hover,
-.btn-success:focus {
-	color: #fff;
-	background-color: #555;
-	border-color: #555;
-}
-
 body,
 html {
 	width: 100%;
@@ -115,7 +20,7 @@ p {
 	line-height: 1.5;
 	font-weight: 300;
 	color: #444;
-	letter-spacing: 0.1rem;
+	letter-spacing: 0.2rem;
 }
 
 h3 {
@@ -127,6 +32,8 @@ cite,
 content {
 	color: #fff;
 }
+
+
 
 .btn-primary,
 .btn-primary:active {
@@ -144,7 +51,7 @@ content {
 .btn-outline:focus {
 	position: relative;
 	top: 0.5rem;
-	background-color: #F89231;
+	background-color: #F7A24A;
 	color: #fff;
 	border: none;
 	padding: 0.5em;
@@ -1419,26 +1326,6 @@ p.copyright {
 
 .footer-logo {
 	height: 2.8em;
-}
-
-
-.register-now {
-	position: fixed;
-	bottom: 1.25rem;
-	right: 2.2em;
-	text-align: center;
-	display: none;
-	border: none;
-	background: #F89231;
-	color: white;
-	border-radius: 0.25em;
-}
-
-.register-now:hover,
-.register-now:active,
-.register-now:focus{
-	background-color: #B35D20;
-	text-decoration: none;
 }
 
 .content-section-c h2 {

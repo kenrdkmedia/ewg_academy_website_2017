@@ -7,6 +7,7 @@ Primary style
 html * {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 *,
@@ -169,11 +170,19 @@ header h1 {
 
 .cd-timeline-img img {
 	display: block;
+
+	width: 2em;
+	height: 2em;
+	position: relative;
+	left: 44%;
+	top: 44%;
+
 	width: 2.2em;
 	height: 2.2em;
 	position: relative;
 	left: 42%;
 	top: 42%;
+
 	margin-left: -12px;
 	margin-top: -12px;
 }

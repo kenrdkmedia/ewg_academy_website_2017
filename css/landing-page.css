@@ -507,7 +507,7 @@ content {
 .featurette-image {
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 	position: relative;
-	top: 1.5em;
+	top: 2.2em;
 }
 
 .section-heading {
@@ -515,6 +515,12 @@ content {
 	margin-bottom: 2em;
 	font-weight: 600;
 	color: #fff;
+}
+
+@media(max-width:767px) {
+	.featurette-image {
+	top: 2.9em;
+  }
 }
 
 /*===============

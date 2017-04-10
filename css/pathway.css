@@ -228,14 +228,16 @@ header h1 {
 
 .cd-timeline-img img {
 	display: block;
-    width: 2.2em;
-	height: 2.2em;
+    width: 56%;
+	height: 56%;
 	position: relative;
-	left: 40%;
-	top: 40%;
+	left: 53%;
+	top: 53%;
 	margin-left: -12px;
 	margin-top: -12px;
 }
+
+
 
 .cd-timeline-img.cd-orange {
 	background: #F7A24A;
@@ -251,6 +253,27 @@ header h1 {
 		-webkit-transform: translateZ(0);
 		-webkit-backface-visibility: hidden;
 	}
+  
+    .cd-timeline-img img {
+        display: block;
+        width: 2.2em;
+        height: 2.2em;
+        position: relative;
+        left: 40%;
+        top: 40%;
+        margin-left: -12px;
+        margin-top: -12px;
+}
+  
+    
+  }
+  
+  
+  
+  
+  
+  
+  
 	.cssanimations .cd-timeline-img.is-hidden {
 		visibility: hidden;
 	}

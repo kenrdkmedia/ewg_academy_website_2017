@@ -19,6 +19,21 @@ $(document).ready(function () {
 	});
 });
 
+/*===========
+  BACK TO TOP 
+=============*/
+
+$(document).ready(function () {
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			$('#register').fadeIn();
+		} else {
+			$('#register').fadeOut();
+		}
+	});
+});
+
+
 
 /*=================
   SMOOTH SCROLL

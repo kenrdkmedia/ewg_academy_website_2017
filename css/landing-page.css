@@ -68,41 +68,22 @@ content {
 }
 
 .btn-form {
-	background-color: #fff;
-	border-color: #444;
-	color: #444;
-	margin: 1.3em 0;
+    background-color: #fff;
+    border-color: #444;
+    color: #444;
+    margin: 1.3em 0;
 }
 
-.btn-form:hover {
-	background-color: #555;
-	border-color: #555;
+.btn-form:hover{
+    background-color: #555;
+    border-color: #555;
 }
-
-.btn-send,
-.btn-success,
-.btn.disabled,
-.btn.disabled:hover {
-	color: #555;
-	background-color: #e4e4e4;
-	border-color: #e4e4e4;
-	padding: 0.8em;
-	font-size: 1.2em;
-}
-
-.btn-success:hover,
-.btn-success:focus {
-	color: #fff;
-	background-color: #555;
-	border-color: #555;
-}
-
 
 /*================
 
      Arrow Styles
 
-================*/
+   ================*/
 
 .arrow-down {
 	font-size: 1.8em;
@@ -627,7 +608,7 @@ content {
 }
 
 .content-section-d {
-	padding: 5em 0;
+	padding: 1.8em 0 5.3em 0;
 	background-color: #eee;
 }
 
@@ -972,12 +953,8 @@ select {
 }
 
 /*================
-
-
  Modal Contact
-
 ================*/
-
 .modal-content {
 	border-radius: 0px;
 }
@@ -993,19 +970,19 @@ select {
 
 .modal-body {
 	background: #f2f2f2;
-	font-weight: 300;
-	font-size: 16px;
-	color: #555;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
 }
 
 .modal-body a {
-	color: #555;
+    color: #555;
 }
 
 .modal-footer {
 	background: #f2f2f2;
-	margin-top: 0px;
-	border: none;
+	margin-top: 0px; 
+    border: none;
 }
 
 

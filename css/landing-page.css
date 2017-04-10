@@ -543,10 +543,15 @@ content {
 	}
 }
 
+.video-container {
+  position: relative;
+  /*top: 1.2em;*/
+}
+
 .brandvideo {
+    position: relative;
 	max-width: 100%;
 	height: auto;
-	padding-top: 1.2em;
 }
 
 .intro-message {

@@ -120,12 +120,12 @@ $(document).ready(function () {
 $(document).ready(function () {
 	$('.customer-logos').slick({
 		slidesToShow: 4,
-		slidesToScroll: 1,
+		slidesToScroll: 4,
 		autoplay: true,
-		autoplaySpeed: 3000,
+		autoplaySpeed: 6000,
 		arrows: false,
 		dots: false,
-		pauseOnHover: false,
+		pauseOnHover: true,
 		responsive: [{
 			breakpoint: 768,
 			settings: {

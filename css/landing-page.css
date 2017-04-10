@@ -51,7 +51,7 @@ content {
 .btn-outline:focus {
 	position: relative;
 	top: 0.5rem;
-	background-color: #BE6E27;
+	background-color: #FEB130;
 	color: #fff;
 	border: none;
 	padding: 0.8em 1.2em 0.8em 1.2em;
@@ -65,17 +65,6 @@ content {
 	background-color: #F89231;
 	border: none;
     color: #fff;
-}
-
-.register{
-  position: relative;
-	top: 0.5rem;
-	background-color: #F89231;
-	color: #fff;
-	border: none;
-	padding: 0.5em;
-	font-size: 1.3em;
-	font-weight: 300;
 }
 
 .btn-form {
@@ -113,7 +102,7 @@ content {
 
      Arrow Styles
 
-    ================*/
+================*/
 
 .arrow-down {
 	font-size: 1.8em;

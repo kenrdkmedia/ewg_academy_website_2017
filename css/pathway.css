@@ -87,7 +87,7 @@ a {
 	text-align: center;
 	display: none;
 	border: none;
-	background: #F89231;
+	background: #FEB130;
 	color: white;
 	border-radius: 0.25em;
 }
@@ -95,7 +95,7 @@ a {
 .register-now:hover,
 .register-now:active,
 .register-now:focus{
-	background-color: #B35D20;
+	background-color: #F89231;
 	text-decoration: none;
 }
 

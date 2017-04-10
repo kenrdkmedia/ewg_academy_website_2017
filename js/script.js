@@ -76,22 +76,33 @@ AOS.init({
 /*===========
   FORM 
 =============*/
+
 $(function () {
-	$('.send_contact').validator();
-	$('.send_contact').on('submit', function (e) {
-		if (!e.isDefaultPrevented()) {
-			var url = "contact.php";
-			var f = $(this).serializeArray();
-			$("#loading_div").css('display', 'block');
-			$.post(url, {
-				fields: f
-			}, function (result) {
-				location.replace("thankyou.html");
-			});
-			return false;
-		}
-	});
-}); /* @Chris -- DOES IT GO AFTER THIS validation? */
+
+    $('#contact-form').validator();
+
+    $('#contact-form').on('submit', function (e) {
+        if (!e.isDefaultPrevented()) {
+            var url = "technology/contact.php";
+            var f = $(this).serializeArray();
+            $("#loading_div").css('display', 'block');
+            $("#submitButton").css('display', 'none');
+            $.post(url, {
+                fields:f
+            }, function (result) {
+                $("#loading_div").css('display', 'none');
+                $("#submitButton").css('display', 'block');
+                $("form").trigger("reset"); 
+                $("#myModal").modal('hide');
+                $("#contact-form").reset();
+                    alert("Thank you");
+                
+            });
+
+            return false;
+        }
+    })
+});
 
 /*===========
   Counter 

@@ -83,7 +83,7 @@ $(function () {
 
     $('#contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "technology/contact.php";
+            var url = "../technology/contact.php";
             var f = $(this).serializeArray();
             $("#loading_div").css('display', 'block');
             $("#submitButton").css('display', 'none');

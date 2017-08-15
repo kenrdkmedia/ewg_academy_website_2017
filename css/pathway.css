@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -101,7 +101,7 @@ a {
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -126,9 +126,9 @@ Modules - reusable parts of our design
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 
@@ -253,7 +253,7 @@ header h1 {
 		-webkit-transform: translateZ(0);
 		-webkit-backface-visibility: hidden;
 	}
-  
+
     .cd-timeline-img img {
         display: block;
         width: 2.2em;
@@ -264,16 +264,16 @@ header h1 {
         margin-left: -12px;
         margin-top: -12px;
 }
-  
-    
+
+
   }
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
 	.cssanimations .cd-timeline-img.is-hidden {
 		visibility: hidden;
 	}

@@ -8,8 +8,8 @@ if(!isset($title)) {
 if(!isset($desc)) {
 	$desc = "";
 }
-if(!isset($header_extra)) {
-	$header_extra = " ";
+if(!isset($headers_extra)) {
+	$header_extra = "";
 }
 	$url = $_SERVER['PHP_SELF'];
 ?>
@@ -77,7 +77,7 @@ if(!isset($header_extra)) {
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button>
-        <a class="navbar-brand topnav" href="index.html"><img class="logo" src="assets/images/logos/ewg_acad_logo.svg" alt="EWG Academy Logo"></a>
+        <a class="navbar-brand topnav" href="index"><img class="logo" src="assets/images/logos/ewg_acad_logo.svg" alt="EWG Academy Logo"></a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

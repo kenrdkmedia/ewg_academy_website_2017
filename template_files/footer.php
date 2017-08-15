@@ -3,8 +3,6 @@ if(!isset($footer_extra)) {
  $footer_extra = "";
 
 }?>
-
-
 <!--CTA-->
     <div class="content-section-d cta" data-aos="fade-down" data-aos-once="true">
       <div class="container">

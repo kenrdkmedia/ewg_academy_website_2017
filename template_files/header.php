@@ -8,7 +8,7 @@ if(!isset($title)) {
 if(!isset($desc)) {
 	$desc = "";
 }
-if(!isset($headers_extra)) {
+if(!isset($header_extra)) {
 	$header_extra = "";
 }
 	$url = $_SERVER['PHP_SELF'];
@@ -21,16 +21,14 @@ if(!isset($headers_extra)) {
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Provides students and graduates with industry relevant training, certificates and casual work
-.">
+  <meta name="description" content="<?php echo $desc; ?>">
   <meta name="author" content="Event Workforce Group">
   <meta property="og:site_name" content="Event Workforce Group | Academy" />
-  <meta property="og:title" content="Event Workforce Group Academy" />
-  <meta property="og:description" content="Provides students and graduates with industry relevant training, certificates and casual work
-." />
+  <meta property="og:title" content="Event Workforce Group <?php echo $title; ?>" />
+  <meta property="og:description" content="<?php echo $desc; ?>" />
   <meta property="og:image" content="http://event-workforce.com.au/ewg_web/wordpress/wp-content/uploads/2016/10/cropped-EWG-Group-Logo.png">
   <meta property="og:url" content="http://eventworkforcegroup.com/academy">
-  <title> Academy | Event Workforce Group</title>
+  <title><?php echo $title; ?> | Event Workforce Group</title>
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <!-- Custom CSS -->
@@ -58,7 +56,7 @@ if(!isset($headers_extra)) {
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="assets/ewg_favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-
+<?php echo $header_extra; ?>
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>

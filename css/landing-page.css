@@ -67,7 +67,7 @@ content {
 .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px
-      
+
 }
 
 .btn-group > .btn:last-child:not(:first-child), .btn-group > .dropdown-toggle:not(:first-child) {
@@ -210,8 +210,8 @@ content {
   .arrow-down {
 
 	top: 0.1em;
-	
-	
+
+
   }
 }
 
@@ -277,7 +277,7 @@ content {
 	color: #f8f8f8;
 	background: url("../assets/images/ewg_academy_header.jpg") no-repeat center center;
 	background-size: cover;
-	min-height: 70vh;
+	max-height: 70vh;
 }
 
 .intro-message {
@@ -439,11 +439,11 @@ content {
 
 .content-section-d h2 {
   padding: 1.1em 0;
-  
+
 }
 
 .content-section-d p {
-  padding: 0 0 1.2em 0; 
+  padding: 0 0 1.2em 0;
 }
 
 .cta {
@@ -451,7 +451,7 @@ content {
 }
 
 .featurette-image {
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); 
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .section-heading {
@@ -621,7 +621,7 @@ ol.carousel-indicators {
 }
 
 /*================
-     Featurette Styles 
+     Featurette Styles
     ================*/
 
 .featurette-heading {
@@ -736,7 +736,7 @@ select {
 
 .modal-footer {
 	background: #f2f2f2;
-	margin-top: 0px; 
+	margin-top: 0px;
     border: none;
 }
 

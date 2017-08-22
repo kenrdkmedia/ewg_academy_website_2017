@@ -20,13 +20,6 @@ include $file_base."template_files/header.php";
               <a href="https://ew.rosterfy.co/ewg" target="_blank" class="btn btn-outline log-in">Login Now</a>
             </div>
           </div>
-          <div class="container">
-            <div class="row arrow-down bounce">
-              <div class="col-md-12 text-center">
-                <a href="#video" class="down-arrow"><i class="fa fa-chevron-down"></i></a>
-              </div>
-            </div>
-          </div>
           <!--END OF INTRO MESSAGE-->
         </div>
         <!--END OF COL-->

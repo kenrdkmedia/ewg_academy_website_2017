@@ -16,7 +16,7 @@ include $file_base."template_files/header.php";
             <h1>Academy</h1>
             <p>A proven pathway for motivated tertiary students and graduates</p>
             <div class="header-button btn-group">
-              <a href="https://ew.rosterfy.co/register" target="_blank" class="btn btn-outline">Register Now</a>
+              <a href="https://ew.rosterfy.co/register" target="_blank" class="btn btn-outline log-in">Register Now</a>
               <a href="https://ew.rosterfy.co/ewg" target="_blank" class="btn btn-outline log-in">Login Now</a>
             </div>
           </div>
@@ -40,7 +40,7 @@ include $file_base."template_files/header.php";
           <p>Event Workforce Group Academy provides tertiary institutes along with their students and graduates with industry relevant training, certificates and casual work until they are qualified to gain full time employment in the industry of their chosen pathway.
           </p>
           <div class="button">
-              <a href="pathway.html" class="btn btn btn-outline">Learn More</a>
+              <a href="pathway.html" class="btn btn btn-outline log-in">Learn More</a>
             </div>
         </div>
         <div class="col-lg-5 col-sm-pull-6 col-sm-6 video-container">
@@ -110,7 +110,7 @@ include $file_base."template_files/header.php";
           <p class="tech-lead" style="color: #555;">Being a part of the EWG Academy gives you access to both paid and voluntary work at Australia's biggest events, festivals, brands and agencies. Our industry designed pathway gives you every opportunity to gain that crucial experience to further
             your career.</p>
           <div class="button">
-            <a href="https://ew.rosterfy.co/register" target="_blank" class="btn btn btn-outline">Register Now</a>
+            <a href="https://ew.rosterfy.co/register" target="_blank" class="btn btn btn-outline log-in">Register Now</a>
           </div>
         </div>
         <div data-aos="fade-right" data-aos-once="true" class="col-lg-5 col-sm-pull-6 col-sm-6">

@@ -16,7 +16,7 @@ include $file_base."template_files/header.php";
             <h1>Pathway Program</h1>
             <p>Our process for furthering your career and obtaining your dream job.</p>
            <div class="header-button">
-              <a href="https://ew.rosterfy.co/register" target="_blank" class="btn btn-outline">Register Now</a>
+              <a href="https://ew.rosterfy.co/register" target="_blank" class="btn btn-outline log-in">Register Now</a>
             </div>
           </div>
           <!--END OF INTRO MESSAGE-->
@@ -41,7 +41,7 @@ include $file_base."template_files/header.php";
       <div class="cd-timeline-content">
         <h2>Registration Form</h2>
         <p>To become a part of the EWG Academy you’ll need to complete the registration form and a series of online inductions.</p>
-        <a href="https://ew.rosterfy.co/register" target="_blank" class="cd-read-more">Register Now</a>
+        <a href="https://ew.rosterfy.co/register" target="_blank" class="btn btn-outline log-in">Register Now</a>
         <span class="cd-date">First Step</span>
       </div>
       <!-- cd-timeline-content -->

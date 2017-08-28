@@ -11,7 +11,7 @@ if(!isset($footer_extra)) {
             <h2>Become a Workforcer today </h2>
             <p>Join the hundreds of workforcers today!</p>
             <div class="button-header">
-              <a href="https://ew.rosterfy.co/register" target="_blank" class="btn btn-outline">Register Now</a>
+              <a href="https://ew.rosterfy.co/register" target="_blank" class="btn btn-outline log-in">Register Now</a>
               <a href="https://ew.rosterfy.co/ewg" target="_blank" class="btn btn-outline log-in">Login Now</a>
             </div>
           </div>
@@ -121,7 +121,7 @@ if(!isset($footer_extra)) {
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                            <button type="submit" class="btn btn-success btn-send" id="submitButton">Send Message</button>
+                                            <button type="submit" class="btn btn-outline log-in" id="submitButton">Send Message</button>
                                             <br>
                                             <input type="hidden" id="form_type" name="form_type" value="contact_us">
                                             <!-- EMAIL TEMPLATE TO USE -->
@@ -132,7 +132,8 @@ if(!isset($footer_extra)) {
                                         <div class="col-md-12">
                                             <div id= "loading_div" style= "display:none">LOADING</div>
                                             <div id= "submitted_div" style= "display:none">Submitted</div>
-                                            <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                                            <br>
+                                            <p class="small text-muted"><strong>*</strong> These fields are required.</p>
                                         </div>
                                     </div>
                                 </div>

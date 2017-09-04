@@ -1,6 +1,6 @@
 <?php
 $file_base = "";
-$title = "Welcome";
+$title = "Event Workforce Group Academy Melbourne, Sydney, Perth, Adelaide, ACT Australia";
 $desc = "Provides students and graduates with industry relevant training, certificates and casual work industry";
 include $file_base."template_files/header.php";
 ?>
